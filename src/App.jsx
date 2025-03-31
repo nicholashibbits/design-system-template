@@ -1,7 +1,7 @@
 import "./styles/main.scss";
 
 function App() {
-  return <>Yo</>;
+  return <div className="container">Hello World</div>;
 }
 
 export default App;
