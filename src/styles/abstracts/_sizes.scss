@@ -8,4 +8,11 @@ $sizes: (
   36: 2.25rem,
 );
 
-// analyze designs for specific padding, gap, values etc -- comvert to rem and assign to variables
+// Update specific valus for following flex, grid, and container variables as needed
+
+$grid-gap: size(24);
+$flex-group-gap: 1rem;
+
+$container-inline-padding: 1rem;
+$container-max-width: 77.5rem;
+$container-max-width-wide: 1400px;

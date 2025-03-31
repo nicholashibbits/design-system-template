@@ -1,5 +1,11 @@
 @use "../abstracts" as *;
 
+// create custom classes as needed for margin and padding based on custom sizes in `abstracts/sizes.scss`
+
+.mx-auto {
+  margin-inline: auto;
+}
+
 @each $size-name, $size-value in $sizes {
   .margin {
     &-#{$size-name} {
